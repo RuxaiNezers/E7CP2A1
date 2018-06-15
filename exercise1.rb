@@ -3,4 +3,6 @@
  b = a.map { |x| x + 1 }
 
  puts b
+
+
  

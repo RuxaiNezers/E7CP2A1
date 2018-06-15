@@ -12,6 +12,9 @@ b5 = a.select { |x| x < 5}
 
 b6 = a.inject { |sum, value| sum + value}
 
+b7 = a.group_by {|i| i%2}
+
+b8 = a.group_by {|i| i%2}
 print b1
 puts " "
 print b2
@@ -23,3 +26,5 @@ puts " "
 print b5
 puts " "
 print b6
+puts " "
+print b7

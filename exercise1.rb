@@ -2,7 +2,11 @@
 
  b = a.map { |x| x + 1 }
 
- puts b
+ b2 = a.map { |x| x.to_f}
+
+ print b
+ puts ""
+ print b2
 
 
- 
+

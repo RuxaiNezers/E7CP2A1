@@ -6,7 +6,7 @@ b2 = a.map { |x| x.to_f }
 
 b3 = a.map { |x| x.to_s } 
 
-b4 = a.reject { |x| x < 5}
+b4 = a.reject { |x| x < 6}
 
 b5 = a.select { |x| x < 5}
 

@@ -8,7 +8,7 @@ b3 = nombres.select{|x| x.chr.eql?('P') } #/P./.match(x)
 
 b4 = nombres.map {|x| x.length}
 
-b5 = nombres.map {|x| x.gsub(/[aeiou]/, '') }
+b5 = nombres.map {|x| x.gsub(/[aeiouAEIOU]/, '') }
 
 print b1
 puts ""
